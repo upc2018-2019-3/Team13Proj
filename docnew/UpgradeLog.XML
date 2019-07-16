@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="hospital">
+</Property><Property Name="解决方案文件" Value="C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\hospital.sln">
+</Property><Property Name="用户选项文件" Value="C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\hospital.suo">
+</Property><Property Name="Date" Value="2019年7月1日">
+</Property><Property Name="Time" Value="15:33">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="hospital.sln" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\hospital.sln">
+</Event><Event ErrorLevel="0" Project="" Source="hospital.suo" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\hospital.suo">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\hospital.csproj" Description="项目文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\hospital.csproj">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\DBhelper.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\DBhelper.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Relook.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Relook.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Relook.designer.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Relook.designer.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Login.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Login.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Login.designer.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Login.designer.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Mindoc.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Mindoc.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Mindoc.Designer.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Mindoc.Designer.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Newusers.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Newusers.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Newusers.designer.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Newusers.designer.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Patientinfo.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Patientinfo.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Patientinfo.Designer.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Patientinfo.Designer.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Program.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Program.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Properties\Resources.Designer.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Properties\Settings.Designer.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Register .cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Register .cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Register .designer.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Register .designer.cs">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Properties\Settings.settings" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Properties\Settings.settings">
+</Event><Event ErrorLevel="2" Project="hospital" Source="doc\Resources\10.bmp" Description="未能将文件备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Resources\10.bmp">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Resources\back.bmp" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Resources\back.bmp">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Resources\Search.ico" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Resources\Search.ico">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Resources\1.jpg" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Resources\1.jpg">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Resources\7.jpg" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Resources\7.jpg">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Resources\7da931dd03f38eca8d10293e.jpg" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Resources\7da931dd03f38eca8d10293e.jpg">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Resources\6583c92fa950f32a1e30890c.jpg" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Resources\6583c92fa950f32a1e30890c.jpg">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Resources\b02f002cafb372fe8b139918.jpg" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Resources\b02f002cafb372fe8b139918.jpg">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Resources\未命名.JPG" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Resources\未命名.JPG">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Resources\2.jpg" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Resources\2.jpg">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Resources\21.jpg" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Resources\21.jpg">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Relook.resx" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Relook.resx">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Login.resx" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Login.resx">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Mindoc.resx" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Mindoc.resx">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Newusers.resx" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Newusers.resx">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Patientinfo.resx" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Patientinfo.resx">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Properties\Resources.resx" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\Register .resx" Description="文件已成功备份为 C:\Users\lenovo\Desktop\医院挂号管理系统\doc\doc\Backup\doc\Register .resx">
+</Event><Event ErrorLevel="1" Project="hospital" Source="doc\hospital.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\hospital.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="hospital" Source="doc\hospital.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="hospital.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="hospital.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="hospital" Source="doc\hospital.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

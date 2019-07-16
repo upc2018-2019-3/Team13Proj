@@ -1,0 +1,13 @@
+F:\C#\医院挂号管理系统\doc\doc\doc\obj\Debug\doc.exe
+F:\C#\医院挂号管理系统\doc\doc\doc\obj\Debug\doc.pdb
+F:\C#\医院挂号管理系统\doc\doc\doc\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\医院挂号管理系统\doc\doc\doc\obj\Debug\doc.Relook.resources
+F:\C#\医院挂号管理系统\doc\doc\doc\obj\Debug\doc.Login.resources
+F:\C#\医院挂号管理系统\doc\doc\doc\obj\Debug\doc.Mindoc.resources
+F:\C#\医院挂号管理系统\doc\doc\doc\obj\Debug\doc.Newusers.resources
+F:\C#\医院挂号管理系统\doc\doc\doc\obj\Debug\doc.btnTiJiao.resources
+F:\C#\医院挂号管理系统\doc\doc\doc\obj\Debug\doc.Properties.Resources.resources
+F:\C#\医院挂号管理系统\doc\doc\doc\obj\Debug\doc.register.resources
+F:\C#\医院挂号管理系统\doc\doc\doc\obj\Debug\hospital.csproj.GenerateResource.Cache
+F:\C#\医院挂号管理系统\doc\doc\doc\bin\Debug\doc.exe
+F:\C#\医院挂号管理系统\doc\doc\doc\bin\Debug\doc.pdb

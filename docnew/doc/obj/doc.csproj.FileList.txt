@@ -1,0 +1,13 @@
+bin\Debug\doc.exe
+bin\Debug\doc.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\doc.Mindoc.resources
+obj\Debug\doc.Properties.Resources.resources
+obj\Debug\doc.csproj.GenerateResource.Cache
+obj\Debug\doc.exe
+obj\Debug\doc.pdb
+obj\Debug\doc.btnTiJiao.resources
+obj\Debug\doc.Login.resources
+obj\Debug\doc.Newusers.resources
+obj\Debug\doc.register.resources
+obj\Debug\doc.relook.resources

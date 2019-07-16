@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D49DC0AC-8225-4055-8FCC-C5BFBD67D495}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>doc</RootNamespace>
+    <AssemblyName>doc</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBhelper.cs" />
+    <Compile Include="ek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ek.Designer.cs">
+      <DependentUpon>ek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fk.Designer.cs">
+      <DependentUpon>fk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zd.Designer.cs">
+      <DependentUpon>zd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uc.Designer.cs">
+      <DependentUpon>uc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zh.Designer.cs">
+      <DependentUpon>zh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wk.Designer.cs">
+      <DependentUpon>wk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relook.designer.cs">
+      <DependentUpon>Relook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mindoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mindoc.Designer.cs">
+      <DependentUpon>Mindoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Newusers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Newusers.designer.cs">
+      <DependentUpon>Newusers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patientinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patientinfo.Designer.cs">
+      <DependentUpon>Patientinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ek.resx">
+      <DependentUpon>ek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fk.resx">
+      <DependentUpon>fk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zd.resx">
+      <DependentUpon>zd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc.resx">
+      <DependentUpon>uc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zh.resx">
+      <DependentUpon>zh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wk.resx">
+      <DependentUpon>wk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relook.resx">
+      <DependentUpon>Relook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mindoc.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Mindoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Newusers.resx">
+      <DependentUpon>Newusers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patientinfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Patientinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register .resx">
+      <DependentUpon>Register .cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Register .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register .designer.cs">
+      <DependentUpon>Register .cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7da931dd03f38eca8d10293e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6583c92fa950f32a1e30890c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b02f002cafb372fe8b139918.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\未命名.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13296540.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\图片6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\首页.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\首页1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\首页2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\首页背景.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\捕获.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片20190705171656.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片201907051716561.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片201907051716562.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片201907051716563.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ffcat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ffcat1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ffcat2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pp1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\医院.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2019070701.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2019070702.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20190707021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\首页3.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
